@@ -29,5 +29,5 @@ VITE_PORT=8080
 Now you can run ```npm run dev```to start the application.
 
 ### Testing
-To see the test coverage you can run ```npm run coverage````
+To see the test coverage you can run ```npm run coverage```
 To run the tests available you can run ```npm run test```
