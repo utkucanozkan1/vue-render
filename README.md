@@ -1,33 +1,62 @@
-# Example Vue 3 Project
+# Vue 3 Character List Demo
+## Overview
+A Vue 3 application that demonstrates API integration by fetching and displaying a list of Harry Potter characters from the Gryffindor house. Built with Vue 3, Vite, Pinia for state management, and Vitest for testing.
 
-## Description
-> This is a basic Vue app that will make an api call to fetch a list of characters
-> These are characters will then be displayed in a list.
+## Features
+- Fetches character data from an external API
+- Displays characters in a responsive list format
+- State management using Pinia
+- Loading states and error handling
+- Comprehensive test coverage
 
-## Development
-### Installing Dependencies
+## Tech Stack
+- Vue 3 with Composition API
+- Vite for build tooling
+- Pinia for state management
+- Vitest & Vue Test Utils for testing
 
-From within the root directory:
+## Getting Started
 
-First
+### Prerequisites
+- Node.js (v16 or higher)
+- npm (v7 or higher)
 
-```cd exampleProject```
+### Installation
+1. Clone the repository
+2. Navigate to the project directory:
+   ```sh
+   cd exampleProject
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-Then
+### Configuration
+Create a `.env` file in the root directory to customize your environment:
+```env
+VITE_PORT=8080  # Optional: Default port is 3000
+```
 
+### Development
+Start the development server:
 ```sh
-npm install -g vite
-npm install
+npm run dev
 ```
-### Next Steps
-After these steps , you can create an .env file to specifiy a port to run or you can just use the default port.
-Example:
-```
-VITE_PORT=8080
-```
-
-Now you can run ```npm run dev```to start the application.
 
 ### Testing
-To see the test coverage you can run ```npm run coverage````
-To run the tests available you can run ```npm run test```
+Run the test suite:
+```sh
+npm run test
+```
+
+View test coverage:
+```sh
+npm run coverage
+```
+
+### Build
+Create a production build:
+```sh
+npm run build
+```
